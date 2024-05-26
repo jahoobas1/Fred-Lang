@@ -4,6 +4,7 @@ J+ is a language developed in the Roblox engine, specifically catered toward dev
 Made by jahoobas.
 Thanks to Justafunnyknight for the name of the language.
 
+Game is uncopylocked so people can view the code. <br>
 TEST BETA VERSIONS HERE: https://www.roblox.com/games/17616460384/J-testing-place
 
 # HOW IT WORKS
