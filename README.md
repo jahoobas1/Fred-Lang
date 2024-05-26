@@ -1,5 +1,5 @@
-# JPlusLang
-J+ is a language developed in the Roblox engine, specifically catered toward developers wishing to include a feature within their experiences where players can create their own games. This is meant to be a language which is sandboxed, so players can't delete important things or backdoor their game (allowing for exploiting).
+# FredLang
+Fred is a language developed in the Roblox engine, specifically catered toward developers wishing to include a feature within their experiences where players can create their own games. This is meant to be a language which is sandboxed, so players can't delete important things or backdoor their game (allowing for exploiting).
 
 Made by jahoobas.
 Thanks to Justafunnyknight for the name of the language.
@@ -8,7 +8,7 @@ Game is uncopylocked so people can view the code. <br>
 TEST BETA VERSIONS HERE: https://www.roblox.com/games/17616460384/J-testing-place
 
 # HOW IT WORKS
-J+ works by taking the code sent in as a string and splitting it up into seperate strings in an array. <br>
+Fred works by taking the code sent in as a string and splitting it up into seperate strings in an array. <br>
 It further splits those up into commands and arguments. <br>
 It uses those to run a function with arguments to do things within the game. <br>
 
@@ -36,7 +36,7 @@ Example:
 editInst;Workspace;GameParts;Part;BrickColor;BrickColor.new('Bright_red')
 
 # USING STRINGS
-Using strings in J+ is different from Luau; since spaces are removed when running the command, all spaces are removed from a string as well.
+Using strings in Fred is different from Luau; since spaces are removed when running the command, all spaces are removed from a string as well.
 In order to have spaces in a string, you need to replace the spaces with underscores (_). <br>
 
 String: "Hello world!" Output: "Helloworld!" <br>
@@ -61,5 +61,5 @@ Vector3.new(50,10,2) <br>
 When using these, be sure to include them as an argument for the command you are running. <br>
 
 # USING MORE THAN ONE COMMAND IN A SINGLE SCRIPT
-When using J+, you must keep in mind that if you do not mark the end of a command correctly, your script will not work. <br>
+When using Fred, you must keep in mind that if you do not mark the end of a command correctly, your script will not work. <br>
 To mark the end of a command, you need to put a | at the end of it, otherwise the language will interpret the next command as an argument for the previous. <br>
