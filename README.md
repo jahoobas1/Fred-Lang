@@ -4,6 +4,8 @@ J+ is a language developed in the Roblox engine, specifically catered toward dev
 Made by jahoobas.
 Thanks to Justafunnyknight for the name of the language.
 
+TEST BETA VERSIONS HERE: https://www.roblox.com/games/17616460384/J-testing-place
+
 # HOW IT WORKS
 J+ works by taking the code sent in as a string and splitting it up into seperate strings in an array.
 It further splits those up into commands and arguments.
