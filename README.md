@@ -21,19 +21,24 @@ Although it is up to you to provide documentation for the language, you should k
 
 Syntax is always open to change at any time.
 
-about - Provides a small about section in the Output. <br>
-newInst; Class; Service; Name - Creates a new instance. <br>
-editInst; Service; Parent; Object; Property; NewValue - Edits an existing instance. <br>
-waitTime; Time - Waits the provided time. <br>
-removeInst; Service; Parent; Instance - Removes an instance from the game. <br>
-printMessage; Message - Allows the player to print a string into the output. <br>
+
+about - Provides a small about section in the Output.<br>
+newInst, Class, Parent, Name - Creates a new instance.<br>
+editInst, Service, Parent, Name, Property, Value, IsVariable - Edits an existing instance.<br>
+waitTime, time - Waits the provided time.<br>
+removeInst, Service, Parent, Name, IsVariable - Removes an instance from the game.<br>
+printMessage, message - Allows the player to print a string into the output.<br>
+newVariable, name, value, datatype - Make a variable.<br>
+editVariable, name,newValue - Edit an existing variable.<br>
+arithmetic, number,number,outputVariable,operation - Do math on 2 numbers and output the result to an existing variable.<br>
+randomNumber, minimum, maximum, outputVariable - Picks a random number between the minimum and the maximum and outputs the result to an existing variable.<br>
 
 # HOW TO PROVIDE ARGUMENTS
 In order to provide arguments, you would want to do the following:
 command;arg
 
 Example:
-editInst;Workspace;GameParts;Part;BrickColor;BrickColor.new('Bright_red')
+editInst;Workspace;GameParts;Part;BrickColor;BrickColor.new('Bright_red'),false
 
 # USING STRINGS
 Using strings in Fred is different from Luau; since spaces are removed when running the command, all spaces are removed from a string as well.
