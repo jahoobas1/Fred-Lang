@@ -21,10 +21,15 @@ Although it is up to you to provide documentation for the language, you should k
 Syntax is always open to change at any time.
 
 about - Provides a small about section in the Output.
+
 newInst - Creates a new instance.
+
 editInst - Edits an existing instance.
+
 waitTime - Waits the provided time.
+
 removeInst - Removes an instance from the game.
+
 printMessage - Allows the player to print a string into the output.
 
 # HOW TO PROVIDE ARGUMENTS
